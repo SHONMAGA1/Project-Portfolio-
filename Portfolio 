@@ -1,1 +1,119 @@
-j
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="h2">
+        <h2>Project Portfolio</h2>
+    </div>
+    <div class="p1">
+        <p>List of all my projects</p>
+    </div>
+
+    <nav>
+        <ol>
+            <li><a href="#E-commerce">E-commerce</a></li>
+            <li><a href="#Webpage">Webpage</a></li>
+            <li><a href="#Python-calculator">Python, Calculator</a></li>
+            <li><a href="#Python-calendar">Python, Calendar</a></li>
+        </ol>
+    </nav>
+
+    <br>
+    <div class="E-commerce">
+        <section id="E-commerce">
+            <button type="button">E-commerce</button>
+        </section>
+    </div>
+    <br>
+    <div class="Webpage">
+        <section id="Webpage">
+            <button type="button">Webpage</button>
+        </section>
+    </div>
+    <br>
+    <div class="calculator">
+        <section id="Python-calculator">
+            <button type="button">Python, Calculator</button>
+        </section>
+    </div>
+    <br>
+    <div class="calendar">
+        <section id="Python-calendar">
+            <button type="button">Python, Calendar</button>
+        </section>
+    </div>
+<style>
+.h2
+ {padding:5px;
+border-radius:9px;
+background-color:#ddd;
+margin:10px;
+text-align:center;
+border:solid 2px black;
+}
+
+.p1
+{text-align:center;}
+
+.E-commerce
+{padding:20px;
+  margin:10px;
+  item-align:center;
+  background-color:#ddd;
+  border-radius:10px;
+  text-align:center;
+  border:solid 2px black;
+}
+.Webpage
+{padding:20px;
+  margin:10px;
+  item-align:center;
+  text-align:center;
+  background-color:#ddd;
+  border-radius:10px;
+  border:solid 2px black;
+}
+
+.calculator
+{padding:20px;
+  margin:10px;
+  item-align:center;
+  text-align:center;
+  background-color:#ddd;
+  border-radius:10px;
+  border:solid 2px black;
+}
+
+.calendar
+{padding:20px;
+  margin:10px;
+  item-align:center;
+  text-align:center;
+  background-color:#ddd;
+  border-radius:10px;
+  border:solid 2px black;
+  background-color:#ddd;
+}
+
+button
+{background-color:#ddd;}
+
+a
+{color:black;}
+
+body
+{background-color:#282c34;}
+
+li
+{color:white;}
+p
+{color:white;}
+
+     </style>
+
+</body>
+</html>
